@@ -1,0 +1,14 @@
+C:\VSProjects\LeetCode\Luhn's Algorithm\bin\Debug\net9.0\Luhn's Algorithm.exe
+C:\VSProjects\LeetCode\Luhn's Algorithm\bin\Debug\net9.0\Luhn's Algorithm.deps.json
+C:\VSProjects\LeetCode\Luhn's Algorithm\bin\Debug\net9.0\Luhn's Algorithm.runtimeconfig.json
+C:\VSProjects\LeetCode\Luhn's Algorithm\bin\Debug\net9.0\Luhn's Algorithm.dll
+C:\VSProjects\LeetCode\Luhn's Algorithm\bin\Debug\net9.0\Luhn's Algorithm.pdb
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.AssemblyInfoInputs.cache
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.AssemblyInfo.cs
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.csproj.CoreCompileInputs.cache
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.dll
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\refint\Luhn's Algorithm.dll
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.pdb
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.genruntimeconfig.cache
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\ref\Luhn's Algorithm.dll
