@@ -21,7 +21,7 @@ namespace LuhnsAlgorithm
                 {
                     currentDigit = cardNumber % 10; // cycles through the digits
 
-                    if(EvenOrOdd(currentDigit) == true)
+                    if(EvenOrOdd(i) == true)
                     {
                         currentDigit = cardNumber % 10;
                         currentDigit *= 2;

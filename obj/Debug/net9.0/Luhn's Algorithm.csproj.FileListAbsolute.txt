@@ -12,3 +12,18 @@ C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\refint\Luhn's Algorithm
 C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.pdb
 C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.genruntimeconfig.cache
 C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\ref\Luhn's Algorithm.dll
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\bin\Debug\net9.0\Luhn's Algorithm.exe
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\bin\Debug\net9.0\Luhn's Algorithm.deps.json
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\bin\Debug\net9.0\Luhn's Algorithm.runtimeconfig.json
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\bin\Debug\net9.0\Luhn's Algorithm.dll
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\bin\Debug\net9.0\Luhn's Algorithm.pdb
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.AssemblyInfoInputs.cache
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.AssemblyInfo.cs
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.sourcelink.json
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.dll
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\refint\Luhn's Algorithm.dll
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.pdb
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.genruntimeconfig.cache
+C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\ref\Luhn's Algorithm.dll
