@@ -12,3 +12,9 @@
                 }
 
             }*/
+
+
+            if (CycleDigits(creditCardNumber, 5) == 16)
+            {
+                return "
+            }

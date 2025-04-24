@@ -29,6 +29,24 @@ namespace LuhnsAlgorithm
                 return correctNumber;
             }
 
+            // Function to check digits
+
+            string CheckForVisa(int digits)
+            {
+                // Visa - 13 or 16 digits, starts with 4
+                
+            }
+
+            string CheckForMastercard(int digits)
+            {
+                // Mastard Card = 16 Digits, starts with 51, 52, 52, 54, 55
+            }
+
+            string CheckForAMEX(int digits)
+            {
+                // American Express = 15 Digits, starts with 34 or 37
+            }
+
 
             bool CheckSum(long cardNumber, long cardLength)
             {
@@ -120,28 +138,6 @@ namespace LuhnsAlgorithm
 
                 return creditCardNum;
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-            // Iterate through the Credit Card from the back
-                // Multiply each Even Number
-                    // If the even number is greater than 9. Add each individual digit
-
-                // Add each Odd number to a total
-
-            
         }
     }
 }
