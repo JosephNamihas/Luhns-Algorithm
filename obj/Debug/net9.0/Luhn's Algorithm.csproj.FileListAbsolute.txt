@@ -27,3 +27,4 @@ C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\
 C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.pdb
 C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\Luhn's Algorithm.genruntimeconfig.cache
 C:\Users\josep\Desktop\Coding\CS50\C\Luhns-Algorithm\Luhn-s-Algorithm\obj\Debug\net9.0\ref\Luhn's Algorithm.dll
+C:\VSProjects\LeetCode\Luhn's Algorithm\obj\Debug\net9.0\Luhn's Algorithm.sourcelink.json
