@@ -8,8 +8,27 @@ namespace LuhnsAlgorithm
         static void Main(string[] args)
         {
             long creditCardNumber = GetCreditCard();
+            int cardLength = GetLength(creditCardNumber);
 
-            Console.WriteLine(CheckSum(creditCardNumber, GetLength(creditCardNumber)));
+            Console.WriteLine(CheckSum(creditCardNumber, cardLength));
+
+            CycleDigits(creditCardNumber, 5);
+
+            // Function to cycle digits
+            int CycleDigits(long creditCard, int chosenDigit)
+            {
+
+                for(int i = 1; i != chosenDigit; i++)
+                {
+                    creditCard /= 10;
+                }
+
+                long chosenNumber = creditCard % 10;
+
+                int correctNumber = Convert.ToInt32(chosenNumber);
+                return correctNumber;
+            }
+
 
             bool CheckSum(long cardNumber, long cardLength)
             {
@@ -21,7 +40,7 @@ namespace LuhnsAlgorithm
                 {
                     currentDigit = cardNumber % 10; // cycles through the digits
 
-                    if(EvenOrOdd(i) == true)
+                    if(EvenOrOdd(currentDigit) == true)
                     {
                         currentDigit = cardNumber % 10;
                         currentDigit *= 2;
@@ -74,10 +93,10 @@ namespace LuhnsAlgorithm
                 }
             }
 
-            long GetLength(long cardNum)
+            int GetLength(long cardNum)
             {
                 long currentNumber = cardNum;
-                long length = 0;
+                int length = 0;
 
                 do {
                    currentNumber /= 10;
