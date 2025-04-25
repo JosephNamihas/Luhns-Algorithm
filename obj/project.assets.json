@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joseph.namihas\\.nuget\\packages\\": {},
+    "C:\\Users\\josep\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VSProjects\\LeetCode\\Luhn's Algorithm\\Luhn's Algorithm.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\Desktop\\Coding\\CS50\\C\\Luhns-Algorithm\\Luhn-s-Algorithm\\Luhn's Algorithm.csproj",
       "projectName": "Luhn's Algorithm",
-      "projectPath": "C:\\VSProjects\\LeetCode\\Luhn's Algorithm\\Luhn's Algorithm.csproj",
-      "packagesPath": "C:\\Users\\joseph.namihas\\.nuget\\packages\\",
-      "outputPath": "C:\\VSProjects\\LeetCode\\Luhn's Algorithm\\obj\\",
+      "projectPath": "C:\\Users\\josep\\Desktop\\Coding\\CS50\\C\\Luhns-Algorithm\\Luhn-s-Algorithm\\Luhn's Algorithm.csproj",
+      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josep\\Desktop\\Coding\\CS50\\C\\Luhns-Algorithm\\Luhn-s-Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joseph.namihas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

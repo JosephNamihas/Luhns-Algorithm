@@ -10,8 +10,8 @@ namespace LuhnsAlgorithm
             long creditCardNumber = GetCreditCard();
             int cardLength = GetLength(creditCardNumber);
 
-            if(CheckSum(creditCardNumber, cardLength)) {
-                CheckForVisa(creditCardNumber, cardLength);
+            if(CheckSum(creditCardNumber, cardLength) == true) {
+                Console.WriteLine(CheckForVisa(creditCardNumber, cardLength));
             };
 
 
@@ -42,6 +42,7 @@ namespace LuhnsAlgorithm
                         return "VISA";
                     }
                 } else {
+
                     if(length == 16)
                     {
                         if(CycleDigits(creditCardNumber, 16) == 4)
@@ -65,7 +66,7 @@ namespace LuhnsAlgorithm
             }*/
 
 
-            bool CheckSum(long cardNumber, long cardLength)
+            bool CheckSum(long cardNumber, long cardLength) // 4003600000000014
             {
                 long currentDigit = 0; // Tracks the current digit
                 long addedTotal = 0; // Total for the 'other' digits - The ones needing adding together
@@ -75,7 +76,7 @@ namespace LuhnsAlgorithm
                 {
                     currentDigit = cardNumber % 10; // cycles through the digits
 
-                    if(EvenOrOdd(currentDigit) == true)
+                    if(EvenOrOdd(i) == true)
                     {
                         currentDigit = cardNumber % 10;
                         currentDigit *= 2;
