@@ -10,9 +10,11 @@ namespace LuhnsAlgorithm
             long creditCardNumber = GetCreditCard();
             int cardLength = GetLength(creditCardNumber);
 
-            Console.WriteLine(CheckSum(creditCardNumber, cardLength));
+            if(CheckSum(creditCardNumber, cardLength)) {
+                CheckForVisa(creditCardNumber, cardLength);
+            };
 
-            CycleDigits(creditCardNumber, 5);
+
 
             // Function to cycle digits
             int CycleDigits(long creditCard, int chosenDigit)
@@ -31,13 +33,28 @@ namespace LuhnsAlgorithm
 
             // Function to check digits
 
-            string CheckForVisa(int digits)
+            string CheckForVisa(long cardNumber, int length)
             {
-                // Visa - 13 or 16 digits, starts with 4
-                
+                if(length == 13)
+                {
+                    if (CycleDigits(creditCardNumber, 13) == 4)
+                    {
+                        return "VISA";
+                    }
+                } else {
+                    if(length == 16)
+                    {
+                        if(CycleDigits(creditCardNumber, 16) == 4)
+                        {
+                            return "VISA";
+                        }
+                    }
+                };
+
+                return "";
             }
 
-            string CheckForMastercard(int digits)
+            /*string CheckForMastercard(int digits)
             {
                 // Mastard Card = 16 Digits, starts with 51, 52, 52, 54, 55
             }
@@ -45,7 +62,7 @@ namespace LuhnsAlgorithm
             string CheckForAMEX(int digits)
             {
                 // American Express = 15 Digits, starts with 34 or 37
-            }
+            }*/
 
 
             bool CheckSum(long cardNumber, long cardLength)
