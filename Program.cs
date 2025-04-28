@@ -11,9 +11,11 @@ namespace LuhnsAlgorithm
             int cardLength = GetLength(creditCardNumber);
 
             if(CheckSum(creditCardNumber, cardLength) == true) {
-                    Console.WriteLine(CheckForVisa());
-                    Console.WriteLine(CheckForMastercard());
-                    Console.WriteLine(CheckForAMEX());
+                
+                CheckForVisa();
+                CheckForMastercard();
+                CheckForAMEX();
+
             } else {
                 Console.WriteLine("Invalid Card Number");
             }
@@ -35,13 +37,13 @@ namespace LuhnsAlgorithm
 
             // Function to check digits
 
-            string CheckForVisa()
+            void CheckForVisa()
             {
                 if(cardLength == 13)
                 {
                     if (CycleDigits(creditCardNumber, 13) == 4)
                     {
-                        return "VISA";
+                        Console.WriteLine("VISA");
                     }
                 } else {
 
@@ -49,61 +51,38 @@ namespace LuhnsAlgorithm
                     {
                         if(CycleDigits(creditCardNumber, 16) == 4)
                         {
-                            return "VISA";
+                            Console.WriteLine("VISA");
                         }
                     }
                 };
-
-                return "";
             }
 
-            string CheckForMastercard()
+            void CheckForMastercard()
             {
                 if (CycleDigits(creditCardNumber, 16) == 5)
                 {
                     switch(CycleDigits(creditCardNumber, 15))
                     {
-                        case 1:
-                        return "Mastercard";
-                        
-                        case 2:
-                        return "Mastercard";
-
-                        case 3:
-                        return "Mastercard";
-                        
-                        case 4:
-                        return "Mastercard";
-
-                        case 5:
-                        return "Mastercard";
+                        case 1: case 2: case 3: case 4: case 5: case 6:
+                        Console.WriteLine("Mastercard");
+                        break;
                     }
 
-                } else {
-                    return "";
                 }
-
-                return "";
             }
 
-            string CheckForAMEX()
+            void CheckForAMEX()
             {
                 if (CycleDigits(creditCardNumber, 15) == 3)
                 {
                     switch(CycleDigits(creditCardNumber, 14))
                     {
-                        case 4:
-                        return "AMEX";
-
-                        case 7:
-                        return "AMEX";
+                        case 4: case 7:
+                        Console.WriteLine("AMEX");
+                        break;
                     }
-
-                } else { 
-                        return "";
-                    }
-                    return "";
                 }
+            }
 
             bool CheckSum(long cardNumber, long cardLength) // 4003600000000014
             {

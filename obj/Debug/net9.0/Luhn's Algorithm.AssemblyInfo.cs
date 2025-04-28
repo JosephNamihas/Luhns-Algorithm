@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Luhn\'s Algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4bf0d9e7fb287213e5c6694fc26429219ca1a64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f39a0e55b6e86d4d3ec3abe1dbe331485900cee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Luhn\'s Algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Luhn\'s Algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
