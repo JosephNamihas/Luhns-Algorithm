@@ -1,20 +1,3 @@
-// CheckBank(creditCardNumber, CheckSum(creditCardNumber, GetLength(creditCardNumber)));
+Remove String Function for Checks - Replace with Void and use Control.WriteLine();
+Use cleaner IF statements for checking number of digits - avoid the use of having to use same logic more than once.
 
-
-            /*string CheckBank(long creditCard, bool validCard)
-            {
-                if(validCard == true)
-                {
-                    // Mastercard, VISA and AMEX Checks
-
-                } else {
-                    return "Not a valid card";
-                }
-
-            }*/
-
-
-            if (CycleDigits(creditCardNumber, 5) == 16)
-            {
-                return "
-            }
