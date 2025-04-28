@@ -11,10 +11,10 @@ namespace LuhnsAlgorithm
             int cardLength = GetLength(creditCardNumber);
 
             if(CheckSum(creditCardNumber, cardLength) == true) {
-                Console.WriteLine(CheckForVisa(creditCardNumber, cardLength));
+                    Console.WriteLine(CheckForVisa());
+                    Console.WriteLine(CheckForMastercard());
+                    Console.WriteLine(CheckForAMEX());
             };
-
-
 
             // Function to cycle digits
             int CycleDigits(long creditCard, int chosenDigit)
@@ -33,9 +33,9 @@ namespace LuhnsAlgorithm
 
             // Function to check digits
 
-            string CheckForVisa(long cardNumber, int length)
+            string CheckForVisa()
             {
-                if(length == 13)
+                if(cardLength == 13)
                 {
                     if (CycleDigits(creditCardNumber, 13) == 4)
                     {
@@ -43,7 +43,7 @@ namespace LuhnsAlgorithm
                     }
                 } else {
 
-                    if(length == 16)
+                    if(cardLength == 16)
                     {
                         if(CycleDigits(creditCardNumber, 16) == 4)
                         {
@@ -55,16 +55,53 @@ namespace LuhnsAlgorithm
                 return "";
             }
 
-            /*string CheckForMastercard(int digits)
+            string CheckForMastercard()
             {
-                // Mastard Card = 16 Digits, starts with 51, 52, 52, 54, 55
+                if (CycleDigits(creditCardNumber, 16) == 5)
+                {
+                    switch(CycleDigits(creditCardNumber, 15))
+                    {
+                        case 1:
+                        return "Mastercard";
+                        
+                        case 2:
+                        return "Mastercard";
+
+                        case 3:
+                        return "Mastercard";
+                        
+                        case 4:
+                        return "Mastercard";
+
+                        case 5:
+                        return "Mastercard";
+                    }
+
+                } else {
+                    return "";
+                }
+
+                return "";
             }
 
-            string CheckForAMEX(int digits)
+            string CheckForAMEX()
             {
-                // American Express = 15 Digits, starts with 34 or 37
-            }*/
+                if (CycleDigits(creditCardNumber, 15) == 3)
+                {
+                    switch(CycleDigits(creditCardNumber, 14))
+                    {
+                        case 4:
+                        return "AMEX";
 
+                        case 7:
+                        return "AMEX";
+                    }
+
+                } else { 
+                        return "";
+                    }
+                    return "";
+                }
 
             bool CheckSum(long cardNumber, long cardLength) // 4003600000000014
             {
