@@ -14,7 +14,9 @@ namespace LuhnsAlgorithm
                     Console.WriteLine(CheckForVisa());
                     Console.WriteLine(CheckForMastercard());
                     Console.WriteLine(CheckForAMEX());
-            };
+            } else {
+                Console.WriteLine("Invalid Card Number");
+            }
 
             // Function to cycle digits
             int CycleDigits(long creditCard, int chosenDigit)
