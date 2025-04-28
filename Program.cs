@@ -20,6 +20,9 @@ namespace LuhnsAlgorithm
                 Console.WriteLine("Invalid Card Number");
             }
 
+            Console.WriteLine("Press Any Key To Close");
+            Console.ReadKey(); // Stops automatic closur
+
             // Function to cycle digits
             int CycleDigits(long creditCard, int chosenDigit)
             {
